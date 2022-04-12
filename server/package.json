@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.7",
+    "dotenv": "^16.0.0",
+    "graphql": "^16.3.0",
+    "knex": "^1.0.6",
+    "mongoose": "^6.2.10",
+    "pg": "^8.7.3"
+  }
+}
